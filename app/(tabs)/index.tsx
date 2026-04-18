@@ -48,7 +48,7 @@ export default function HomeScreen() {
           <SectionLabel label="Today's orbit" />
           <OrbitCard
             categories="Business + Finance"
-            headline='"The side hustle window is open right now — here\'s what the data says"'
+            headline={`"The side hustle window is open right now — here's what the data says"`}
             onReadPress={() => router.push('/(tabs)/orbit')}
             onBotPress={() => router.push('/(tabs)/bot')}
           />
