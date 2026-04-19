@@ -1,4 +1,12 @@
 export const COLORS = {
+  primary: {
+    50: '#E6F1FB',
+    100: '#B5D4F4',
+    400: '#378ADD',
+    600: '#185FA5',
+    800: '#0C447C',
+  },
+  brand: '#185FA5',
   blue: {
     50: '#EFF6FF',
     100: '#DBEAFE',

@@ -27,9 +27,11 @@ export default function EvaluateResult() {
     );
   }
 
+  const evaluation = ev;
+
   async function shareCard() {
     await Share.share({
-      message: `I evaluated my "${ev.idea}" idea on North Star and it scored ${ev.score}/100!\n\nDownload North Star to evaluate your ideas.`,
+      message: `I evaluated my "${evaluation.idea}" idea on North Star and it scored ${evaluation.score}/100!\n\nDownload North Star to evaluate your ideas.`,
     });
   }
 
@@ -115,7 +117,7 @@ export default function EvaluateResult() {
         </TouchableOpacity>
 
         <TouchableOpacity
-          onPress={() => router.push('/evaluate/index')}
+          onPress={() => router.push('/evaluate')}
           className="py-3 mb-8 items-center"
         >
           <Text className="text-sm text-gray-400">Evaluate another idea</Text>

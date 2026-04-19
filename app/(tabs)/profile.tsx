@@ -99,6 +99,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 25,
   },
+  userInfo: {
+    flex: 1,
+    justifyContent: 'center',
+  },
   avatar: {
     width: 60,
     height: 60,

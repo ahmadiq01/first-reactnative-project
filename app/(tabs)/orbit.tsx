@@ -131,7 +131,7 @@ export default function OrbitScreen() {
 
           {/* ── CTA to Decizia ── */}
           <TouchableOpacity
-            onPress={() => router.push('/evaluate/index')}
+            onPress={() => router.push('/evaluate')}
             className="bg-blue-600 rounded-xl p-4 mb-8 flex-row items-center justify-between"
           >
             <View>

@@ -83,7 +83,7 @@ export default function BotScreen() {
             </View>
           </View>
           <TouchableOpacity
-            onPress={() => router.push('/evaluate/index')}
+            onPress={() => router.push('/evaluate')}
             className="bg-blue-100 rounded-lg px-3 py-1.5"
           >
             <Text className="text-xs font-medium text-blue-800">Evaluate idea ↗</Text>

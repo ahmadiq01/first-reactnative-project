@@ -57,7 +57,7 @@ export default function HomeScreen() {
           <SectionLabel label="Quick actions" />
           <View className="flex-row flex-wrap gap-2 mb-2">
             <TouchableOpacity
-              onPress={() => router.push('/evaluate/index')}
+              onPress={() => router.push('/evaluate')}
               className="flex-1 min-w-[44%] border border-gray-200 rounded-xl p-3 bg-white"
             >
               <View className="w-8 h-8 rounded-lg bg-blue-50 items-center justify-center mb-2">
@@ -139,7 +139,7 @@ export default function HomeScreen() {
           {/* ── Empty state if no evaluations ── */}
           {evaluations.length === 0 && (
             <TouchableOpacity
-              onPress={() => router.push('/evaluate/index')}
+              onPress={() => router.push('/evaluate')}
               className="border border-dashed border-gray-300 rounded-xl p-5 items-center mt-2 mb-4"
             >
               <Text style={{ fontSize: 24 }} className="mb-2">💡</Text>
